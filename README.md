@@ -1,20 +1,54 @@
-# Healthcare-Analytics-Dashboard-
-Healthcare Analytics Dashboard project designed to analyze and visualize healthcare data such as patient records, hospital performance, and treatment outcomes to generate actionable insights.
+# Hospital Analytics & Performance Dashboard
 
-This project is a Healthcare Analytics Dashboard designed to analyze and visualize healthcare data.
-It focuses on understanding patient records, hospital performance, treatment outcomes, and resource utilization.
+A 4-page Power BI dashboard built on 10,000 synthetic patient records across 5 hospitals and 8 departments. It covers hospital overview KPIs, patient demographics and admissions, and clinical metrics.
 
-The dashboard helps in identifying key trends, improving decision-making, and generating actionable insights from healthcare data.
+## Project purpose
+To demonstrate dashboard design, DAX, and data storytelling in Power BI, combined with my 14+ years of clinical and laboratory experience. The dataset is synthetic, so this project shows skills, not real-world clinical findings.
 
-Objective
+## Dataset
+- 10,000 synthetic patient records
+- 5 hospitals, 8 departments
+- Fields include age, gender, blood group, department, hospital, revenue, BMI, glucose, cholesterol, heart rate, and outcome
+- No real patient data is used
 
-To explore healthcare data and provide meaningful insights using data analysis and visualization techniques.
-Key Features
-Patient data analysis
-Hospital performance tracking
-Treatment outcome insights
-Resource utilization analysis
-Data visualization for better understanding
-Outcome
+## Dashboard pages
 
-This project helped in understanding real-world healthcare data and improving analytical and visualization skills for data-driven decision making.
+### 1. Summary Report
+Overview of the pages, data, and a note on the synthetic dataset.
+
+![Summary Report](screenshot1.png)
+
+### 2. Executive Overview
+KPI cards for total patients, total revenue, average age, and number of hospitals, plus daily revenue trend and gender distribution.
+
+![Executive Overview](screenshot2.png)
+
+### 3. Patient Analytics
+Patient profile by age group, gender, and blood group, plus admissions by department and hospital.
+
+![Patient Analytics](screenshot3.png)
+
+### 4. Clinical Performance
+Average BMI, glucose, cholesterol, and heart rate across gender, department, age group, and patient outcome.
+
+![Clinical Performance](screenshot4.png)
+
+## Key insights
+1. **Scale:** 10,000 patients generated 26.18M in total revenue (about 2,618 per patient) across 5 hospitals. Daily revenue stayed around 0.85M with no clear trend.
+2. **Age profile:** The 65+ group is the largest (about 3.4K patients), and the average patient age is 53.5. The 0-18 group is the smallest.
+3. **Blood groups:** O+ (about 3.9K) and A+ (about 3.4K) together make up roughly 73% of patients.
+4. **Admissions:** Emergency has the most admissions (about 1,300), and Neurology the fewest (about 1,190). Patients are evenly split across hospitals (1,957 to 2,037 each).
+5. **Clinical metrics:** Average BMI (26.3), glucose (about 100), cholesterol (about 199), and heart rate (about 74) are almost identical across gender, department, age group, and outcome. This is expected in synthetic data, and I noted it on the dashboard rather than inventing a trend.
+
+## Tools
+Power BI, DAX
+
+## DAX measures used
+- `[Measure name]`: [what it calculates]
+
+## Files
+- `Healthcare_Analytics_Dashboard.pbix`: Power BI file
+- `screenshot1.png` to `screenshot4.png`: dashboard page previews
+
+## About me
+Healthcare professional (BSc MLT) with 14+ years of clinical and laboratory data experience, moving into data analytics. I use my healthcare domain knowledge to build analytics that make sense to clinicians and managers.
