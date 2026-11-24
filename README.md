@@ -22,6 +22,8 @@ Overview of the pages, data, and a note on the synthetic dataset.
 KPI cards for total patients, total revenue, average age, and number of hospitals, plus daily revenue trend and gender distribution.
 
 ![Executive Overview](Screenshot%202026-11-25%20004453.png)
+
+
 ### 3. Patient Analytics
 Patient profile by age group, gender, and blood group, plus admissions by department and hospital.
 
