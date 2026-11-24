@@ -1,4 +1,4 @@
-# Hospital Analytics & Performance Dashboard
+f5# Hospital Analytics & Performance Dashboard
 
 A 4-page Power BI dashboard built on 10,000 synthetic patient records across 5 hospitals and 8 departments. It covers hospital overview KPIs, patient demographics and admissions, and clinical metrics.
 
