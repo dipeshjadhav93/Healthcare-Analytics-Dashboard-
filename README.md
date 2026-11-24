@@ -16,22 +16,21 @@ To demonstrate dashboard design, DAX, and data storytelling in Power BI, combine
 ### 1. Summary Report
 Overview of the pages, data, and a note on the synthetic dataset.
 
-![Summary Report](screenshot1.png)
+![Summary Report](Screenshot%202026-11-25%20004434.png)
 
 ### 2. Executive Overview
 KPI cards for total patients, total revenue, average age, and number of hospitals, plus daily revenue trend and gender distribution.
 
-![Executive Overview](screenshot2.png)
-
+![Executive Overview](Screenshot%202026-11-25%20004453.png)
 ### 3. Patient Analytics
 Patient profile by age group, gender, and blood group, plus admissions by department and hospital.
 
-![Patient Analytics](screenshot3.png)
+![Patient Analytics](Screenshot%202026-11-25%20004518.png)
 
 ### 4. Clinical Performance
 Average BMI, glucose, cholesterol, and heart rate across gender, department, age group, and patient outcome.
 
-![Clinical Performance](screenshot4.png)
+![Clinical Performance](Screenshot%202026-11-25%20004537.png)
 
 ## Key insights
 1. **Scale:** 10,000 patients generated 26.18M in total revenue (about 2,618 per patient) across 5 hospitals. Daily revenue stayed around 0.85M with no clear trend.
