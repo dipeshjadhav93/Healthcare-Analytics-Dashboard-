@@ -42,12 +42,9 @@ Average BMI, glucose, cholesterol, and heart rate across gender, department, age
 ## Tools
 Power BI, DAX
 
-## DAX measures used
-- `[Measure name]`: [what it calculates]
-
 ## Files
-- `Healthcare_Analytics_Dashboard.pbix`: Power BI file
-- `screenshot1.png` to `screenshot4.png`: dashboard page previews
+- Power BI dashboard file (`.pbix`)
+- Screenshots of all 4 dashboard pages (`.png`)
 
 ## About me
 Healthcare professional (BSc MLT) with 14+ years of clinical and laboratory data experience, moving into data analytics. I use my healthcare domain knowledge to build analytics that make sense to clinicians and managers.
